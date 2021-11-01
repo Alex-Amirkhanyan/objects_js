@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.blure {
+    width: 100%;
+    height: 937.25px;
+    background: linear-gradient(180deg,#0D1544,#272F5D);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.write {
+    width: 18.5%;
+    height: 27.5%;
+    border-radius: 12.5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, #531C4A, #651C4A);
+}
+.write_space {
+    width: 102%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.write_space_child {
+    margin-top: 10px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.login {
+    padding: 15px 42.5px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 600;
+    text-align: left;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin: 10px 0px;
+}
+.login::placeholder {
+    color: #9098A9
+}
+.login:hover {
+    border: 1px solid #aaa;
+}
+.pass {
+    padding: 15px 42.5px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 600;
+    text-align: left;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin: 10px 0px;
+}
+.pass::placeholder {
+    color: #9098A9
+}
+.pass:hover {
+    border: 1px solid #aaa;
+}
+.space_btn {
+    width: 100%;
+    height: 28.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space_btn_button {
+    padding: 12.5px 105px;
+    border-radius: 10px;
+    background: #D54C76;
+    border: 2px solid #812f47;
+    border-bottom-left-radius: 0;
+}
+.space_btn_button:hover {
+    border: 2px solid #49101e;
+}
+.space_btn_button h4 {
+    font-size: 17.5px;
+    font-family: system-ui;
+}
+.blure_errors {
+    width: 100%;
+    height: 14%;
+    position: relative;
+}
+.blure_errors_shower {
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    left: 13.5%;
+    display: flex;
+    align-items: center;
+}
+.blure_errors_shower {
+    font-size: 12.5px;
+    font-weight: 600;
+}
